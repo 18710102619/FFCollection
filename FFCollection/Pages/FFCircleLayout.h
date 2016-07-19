@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FFCircleLayout.h
 //  FFCollection
 //
 //  Created by 张玲玉 on 16/7/19.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FFCircleLayout : UICollectionViewLayout
 
 @end
-

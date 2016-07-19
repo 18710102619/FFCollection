@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36334D4D1D3B1B1300C17D6F"
+               BlueprintIdentifier = "3688FB791D3DD9050069FA61"
                BuildableName = "FFCollection.app"
                BlueprintName = "FFCollection"
                ReferencedContainer = "container:FFCollection.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36334D661D3B1B1300C17D6F"
+               BlueprintIdentifier = "3688FB921D3DD9050069FA61"
                BuildableName = "FFCollectionTests.xctest"
                BlueprintName = "FFCollectionTests"
                ReferencedContainer = "container:FFCollection.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36334D711D3B1B1300C17D6F"
+               BlueprintIdentifier = "3688FB9D1D3DD9050069FA61"
                BuildableName = "FFCollectionUITests.xctest"
                BlueprintName = "FFCollectionUITests"
                ReferencedContainer = "container:FFCollection.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36334D4D1D3B1B1300C17D6F"
+            BlueprintIdentifier = "3688FB791D3DD9050069FA61"
             BuildableName = "FFCollection.app"
             BlueprintName = "FFCollection"
             ReferencedContainer = "container:FFCollection.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36334D4D1D3B1B1300C17D6F"
+            BlueprintIdentifier = "3688FB791D3DD9050069FA61"
             BuildableName = "FFCollection.app"
             BlueprintName = "FFCollection"
             ReferencedContainer = "container:FFCollection.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36334D4D1D3B1B1300C17D6F"
+            BlueprintIdentifier = "3688FB791D3DD9050069FA61"
             BuildableName = "FFCollection.app"
             BlueprintName = "FFCollection"
             ReferencedContainer = "container:FFCollection.xcodeproj">
