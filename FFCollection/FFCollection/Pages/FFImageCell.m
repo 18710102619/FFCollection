@@ -18,10 +18,10 @@
 
 - (void)awakeFromNib
 {
-    self.imageView.layer.borderWidth=3;
+    self.imageView.layer.borderWidth=1.5;
     self.imageView.layer.borderColor=[UIColor whiteColor].CGColor;
     
-    self.imageView.layer.cornerRadius=10;
+    self.imageView.layer.cornerRadius=5;
     self.imageView.layer.masksToBounds=YES;
 }
 

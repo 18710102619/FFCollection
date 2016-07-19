@@ -34,13 +34,23 @@ static NSString *const ID=@"imageCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor grayColor];
     
-    CGRect rect=CGRectMake(0, 100, self.view.frame.size.width, 200);
+    CGRect rect=CGRectMake(0, 150, self.view.frame.size.width, 200);
     _collectionView=[[UICollectionView alloc]initWithFrame:rect collectionViewLayout:[[FFLineLayout alloc]init]];
     _collectionView.dataSource=self;
     _collectionView.delegate=self;
     [_collectionView registerNib:[UINib nibWithNibName:@"FFImageCell" bundle:nil] forCellWithReuseIdentifier:ID];
     [self.view addSubview:_collectionView];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    if ([self.collectionView.collectionViewLayout isKindOfClass:[FFLineLayout class]]) {
+        [self.collectionView setCollectionViewLayout:[[UICollectionViewFlowLayout alloc]init] animated:YES];
+    } else {
+        [self.collectionView setCollectionViewLayout:[[FFLineLayout alloc]init] animated:YES];
+    }
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -55,6 +65,14 @@ static NSString *const ID=@"imageCell";
     FFImageCell *cell=[collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     cell.image=self.images[indexPath.row];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 删除模型数据
+    [self.images removeObjectAtIndex:indexPath.row];
+    // 删除UI(刷新UI)
+    [collectionView deleteItemsAtIndexPaths:@[indexPath]];
 }
 
 @end
