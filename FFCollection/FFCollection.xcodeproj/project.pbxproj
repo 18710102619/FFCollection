@@ -156,8 +156,6 @@
 		3688FBB01D3DD9460069FA61 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				3688FBB11D3DD9460069FA61 /* FFCircleLayout.h */,
-				3688FBB21D3DD9460069FA61 /* FFCircleLayout.m */,
 				3688FBB31D3DD9460069FA61 /* FFImageCell.h */,
 				3688FBB41D3DD9460069FA61 /* FFImageCell.m */,
 				3688FBB51D3DD9460069FA61 /* FFImageCell.xib */,
@@ -165,6 +163,8 @@
 				3688FBB71D3DD9460069FA61 /* FFLineLayout.m */,
 				3688FBB81D3DD9460069FA61 /* FFStackLayout.h */,
 				3688FBB91D3DD9460069FA61 /* FFStackLayout.m */,
+				3688FBB11D3DD9460069FA61 /* FFCircleLayout.h */,
+				3688FBB21D3DD9460069FA61 /* FFCircleLayout.m */,
 				3688FBBA1D3DD9460069FA61 /* ViewController.h */,
 				3688FBBB1D3DD9460069FA61 /* ViewController.m */,
 			);
@@ -532,6 +532,7 @@
 				3688FBA91D3DD9050069FA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3688FBAA1D3DD9050069FA61 /* Build configuration list for PBXNativeTarget "FFCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				3688FBAC1D3DD9050069FA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3688FBAD1D3DD9050069FA61 /* Build configuration list for PBXNativeTarget "FFCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +550,7 @@
 				3688FBAF1D3DD9050069FA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

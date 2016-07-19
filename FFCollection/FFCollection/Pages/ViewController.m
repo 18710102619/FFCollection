@@ -43,14 +43,14 @@ static NSString *const ID=@"imageCell";
     CGSize size=self.view.frame.size;
     int y=22,gap=10;
     
-    _collectionLine=[[UICollectionView alloc]initWithFrame:CGRectMake(0, 22, size.width, 160) collectionViewLayout:[[FFLineLayout alloc]init]];
+    _collectionLine=[[UICollectionView alloc]initWithFrame:CGRectMake(0, 22, size.width, 180) collectionViewLayout:[[FFLineLayout alloc]init]];
     _collectionLine.dataSource=self;
     _collectionLine.delegate=self;
     [_collectionLine registerNib:[UINib nibWithNibName:@"FFImageCell" bundle:nil] forCellWithReuseIdentifier:ID];
     [self.view addSubview:_collectionLine];
     
     y=CGRectGetMaxY(_collectionLine.frame)+gap;
-    _collectionStack=[[UICollectionView alloc]initWithFrame:CGRectMake(0, y, size.width, 160) collectionViewLayout:[[FFStackLayout alloc]init]];
+    _collectionStack=[[UICollectionView alloc]initWithFrame:CGRectMake(0, y, size.width, 170) collectionViewLayout:[[FFStackLayout alloc]init]];
     _collectionStack.dataSource=self;
     _collectionStack.delegate=self;
     [_collectionStack registerNib:[UINib nibWithNibName:@"FFImageCell" bundle:nil] forCellWithReuseIdentifier:ID];
