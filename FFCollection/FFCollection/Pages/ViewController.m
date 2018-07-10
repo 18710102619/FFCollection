@@ -17,7 +17,9 @@ static NSString *const ID=@"imageCell";
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property(nonatomic,strong)UICollectionView *collectionLine;
+
 @property(nonatomic,strong)UICollectionView *collectionStack;
+
 @property(nonatomic,strong)UICollectionView *collectionCircle;
 @property(nonatomic,strong)NSMutableArray *images;
 
