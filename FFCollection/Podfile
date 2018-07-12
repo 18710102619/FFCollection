@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/zhanglingyu/ZLYSpecs.git'
+source 'https://github.com/18710102619/FFSpecs.git'
+
+platform :ios, '9.0'
+
+target 'FFCollection' do
+
+ pod 'FFBase'
+ pod 'ZLYBase'
+ 
+
+end

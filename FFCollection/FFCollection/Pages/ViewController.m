@@ -11,6 +11,7 @@
 #import "FFLineLayout.h"
 #import "FFStackLayout.h"
 #import "FFCircleLayout.h"
+#import "FFBase/UIView+JobExtension.h"
 
 static NSString *const ID=@"imageCell";
 
@@ -46,6 +47,7 @@ static NSString *const ID=@"imageCell";
     int y=22,gap=10;
     
     _collectionLine=[[UICollectionView alloc]initWithFrame:CGRectMake(0, 22, size.width, 180) collectionViewLayout:[[FFLineLayout alloc]init]];
+    _collectionLine.x=0;
     _collectionLine.dataSource=self;
     _collectionLine.delegate=self;
     [_collectionLine registerNib:[UINib nibWithNibName:@"FFImageCell" bundle:nil] forCellWithReuseIdentifier:ID];
